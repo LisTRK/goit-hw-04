@@ -454,13 +454,19 @@ button {
     background: rgba(77, 90, 229, 0.1), url("path_to_image");
     background: #4d5ae5;
 
-    transition: 2000ms ease-in-out;
+    transition: 250ms; 
     transition-property: transform;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio-item:hover .overlay {
     transform: translateY(0);
+    
 }
+
+.portfolio-item:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+    background: #fff;}
 
 .portfolio-info {
     display: flex;
