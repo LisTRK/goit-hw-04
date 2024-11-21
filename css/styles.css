@@ -149,7 +149,7 @@ button {
     color: currentColor;
     text-decoration: none;
     color: #2e2f42;  
-    position: relative;  
+    position: relative;
 }
 
 
@@ -159,6 +159,7 @@ button {
 
 .active-page {
     position: relative;
+    color: #404bbf;
     
 }
 
@@ -340,6 +341,7 @@ button {
 
 .team-text {
     text-align: center;
+    margin-bottom: 8px;
 }
 .team-list {
     display: flex;
@@ -386,16 +388,12 @@ button {
 }
 
 
-
-.team-social {
-    margin-bottom: 32px;
-}
-
 .team-social-list {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 24px;
+    margin-bottom: 32px;
 }
 
 .team-social-item {
@@ -583,8 +581,7 @@ button {
 .footer-social-item {
     width: 40px;
     height: 40px;
-    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+    }
 
 .footer-social-link {
     display: flex;
@@ -594,6 +591,7 @@ button {
     height: 100%;
     border-radius: 50%;
     background-color: #4d5ae5;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .footer-social-link:hover,
